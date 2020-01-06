@@ -30,6 +30,17 @@ dependencies {
 
     // Use the Kotlin JUnit integration.
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
+    
+    implementation("bsh:bsh:2.0b4")
+    implementation("com.lowagie:itext:1.4")
+    implementation("com.massisframework.j3d:java3d-core:1.6.0.1")
+    implementation("org.jfree:jcommon:1.0.21")
+    implementation("org.jfree:jfreechart:1.0.17")
+    implementation("javax.media:jmf:2.1.1e")
+    implementation("org.jogamp.jogl:jogl-all:2.3.2")
+    implementation("com.massisframework.j3d:vecmath:1.6.0.1")
+    // Add MASON
+    implementation(fileTree("libs") { include("*.jar") })
 }
 
 application {
