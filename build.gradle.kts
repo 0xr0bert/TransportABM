@@ -30,7 +30,7 @@ dependencies {
 
     // Use the Kotlin JUnit integration.
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
-    
+
     implementation("bsh:bsh:2.0b4")
     implementation("com.lowagie:itext:1.4")
     implementation("com.massisframework.j3d:java3d-core:1.6.0.1")
@@ -45,5 +45,5 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClassName = "io.github.ragreener1.transportabm.AppKt"
+    mainClassName = "io.github.ragreener1.transportabm.model.TransportSimStateKt"
 }
